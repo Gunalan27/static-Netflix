@@ -1,0 +1,383 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+body{
+	margin: 0;
+	 font-family: "Roboto", sans-serif;
+}
+.header{
+	width: 100%;
+	height: 50px;
+	display: inline-flex;
+	flex-direction: row;
+	background-color: black;
+	color: white;
+}
+#i1{
+	position: relative;
+	top: -20px;
+	width: 150px;
+	height: 85px;
+	left: 15px;
+}
+#i2{
+	position: relative;
+	right: -550px;
+}
+.header a{
+	position: relative;
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-weight: none;
+	top: -65px
+}
+.header table{
+	font-weight: none;
+	border-spacing: 50px;
+	height: 0px
+}
+.ss figure{
+	width: 100%;
+	margin:0;
+	position: relative;
+	display: flex;
+	flex-direction: row;
+}
+.ss figure img{
+	width: 1350px;
+	position: relative;
+	top: -43px;
+	height: 600px;
+}
+.c4{
+	font-size: 10px;
+	color: white;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	top: -480px;
+	left: 50px;
+}
+.c4 h1{
+	font-size: 40px;
+	word-spacing: 10px;
+}
+.c4 h4{
+	position: relative;
+	word-spacing: 4px;
+	top: -20px;
+	font-weight: none;
+	font-size: 18px;
+}
+.c4 a{
+	border-style: solid;
+	border-color: white;
+	color: black;
+	background-color: white;
+	width: 87px;
+	text-decoration: none;
+	position: relative;
+	top: -20px;
+	border-radius: 3px;
+	text-align: center;
+	height: 30px;
+	font-size: 23px;
+	font-weight: bold;
+}
+.content{
+	display: flex;
+	flex-direction: row;
+}
+.item img{
+	width: 320px;
+}
+.item{
+	position: relative;
+	display: block;
+	flex:1 1 0px;
+	transition: transform 500ms;
+}
+.content:focus-within .item,
+.content:hover .item{
+	transform: translateX(-25%);
+}
+.content .item:focus,
+.content .item:hover{
+	transform: scale(1.5);;
+	z-index: 1;
+}
+#im1{
+	top: -435px;
+	position: relative;
+	left: 60px;
+	display: flex;
+	flex-direction: row;
+}
+#t1{
+	position: relative;
+	top: -420px;
+	left: 120px;
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+}
+.top{
+	width: 1350px;
+	background-color: black;
+}
+#t2{
+	position: relative;
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+	left: 125px;
+	top: -400px;
+}
+.item1 img{
+	width: 200px;
+}
+.item1{
+	position: relative;
+	display: inline-block;
+	flex:1 1 0px;
+	transition: transform 500ms;
+}
+
+.content1:focus-within .item1,
+.content1:hover .item1{
+	transform: translateX(-25%);
+}
+.content1 .item1:focus,
+.content1 .item1:hover{
+	transform: scale(1.5);;
+	z-index: 1;
+}
+.content1{
+	position: relative;
+	top: -400px;
+	left: 100px;
+}
+#t3,#t4,#t5,#t6,#t7,#t8{
+	position: relative;
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+	left: 130px;
+	top: -400px;
+	text-decoration: none;
+}
+.item3 img,.item4 img,.item5 img,.item6 img,.item7 img,.item8 img{
+	width: 200px;
+}
+.item3{
+	position: relative;
+	display: inline-block;
+	flex:1 1 0px;
+	transition: transform 500ms;
+}
+
+.content3:focus-within .item3,
+.content3:hover .item3{
+	transform: translateX(-25%);
+}
+.content3 .item3:focus,
+.content3 .item3:hover{
+	transform: scale(1.5);;
+	z-index: 1;
+}
+.content3{
+	position: relative;
+	top: -400px;
+	left: 50px;
+}
+.item4{
+	position: relative;
+	display: inline-block;
+	flex:1 1 0px;
+	transition: transform 500ms;
+
+}
+
+.content4:focus-within .item4,
+.content4:hover .item4{
+	transform: translateX(-25%);	
+}
+.content4 .item4:focus,
+.content4 .item4:hover{
+				transform: scale(1.5);;
+	z-index: 1;	
+}
+.content4{
+	position: relative;
+	top: -400px;
+	left: 100px;
+}
+.item5{
+	position: relative;
+	display: inline-block;
+	flex:1 1 0px;
+	transition: transform 500ms;
+
+}
+
+.content5:focus-within .item5,
+.content5:hover .item5{
+	transform: translateX(-25%);	
+}
+.content5 .item5:focus,
+.content5 .item5:hover{
+				transform: scale(1.5);;
+	z-index: 1;	
+}
+
+.content5{
+	position: relative;
+	top: -400px;
+	left: 80px;
+}
+.item6{
+	position: relative;
+	display: inline-block;
+	flex:1 1 0px;
+	transition: transform 500ms;
+
+}
+
+.content6:focus-within .item6,
+.content6:hover .item6{
+	transform: translateX(-25%);	
+}
+.content6 .item6:focus,
+.content6 .item6:hover{
+				transform: scale(1.5);;
+	z-index: 1;	
+}
+.content6{
+	position: relative;
+	left: 80px;
+	top: -400px;
+}
+.item7{
+	position: relative;
+	display: inline-block;
+	flex:1 1 0px;
+	transition: transform 500ms;
+
+}
+
+.content7:focus-within .item7,
+.content7:hover .item7{
+	transform: translateX(-25%);	
+}
+.content7 .item7:focus,
+.content7 .item7:hover{
+				transform: scale(1.5);;
+	z-index: 1;	
+}
+.content7{
+	position: relative;
+	left: 80px;
+	top: -400px;
+}
+.item8{
+	position: relative;
+	display: inline-block;
+	flex:1 1 0px;
+	transition: transform 500ms;
+
+}
+
+.content8:focus-within .item8,
+.content8:hover .item8{
+	transform: translateX(-25%);	
+}
+.content8 .item8:focus,
+.content8 .item8:hover{
+				transform: scale(1.5);;
+	z-index: 1;	
+}
+.content8{
+	position: relative;
+	left: 80px;
+	top: -400px;
+}
+.tle{
+	background-color: black;
+	color: white;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-weight: none;
+	font-size: 15px;
+	width: 1200px;
+}
+.tle table{
+	position: relative;
+	bottom: -50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+    color:#507575 ;
+    font-size: 20px;
+	border-style: solid;
+	border-color: black;
+	border-spacing: 20px;
+
+}
+.bott{
+	height: 500px;
+	width: 1365px;
+	background-color: black;
+}
+.lst{
+	display: flex;
+	flex-direction: column;
+	background-color: black;
+	color: #507575;
+	align-content: center;
+	justify-content: center;
+}
+.lst p{
+	font-size: 20px;
+	position: relative;
+	bottom: -70px;
+	left: -340px;
+}
+.lst select{
+	background-color: rgba(0,0,0,0.4);
+	color: #507575;
+	border-style: solid;
+	border-color: #507575;
+	position: relative;
+	left: -340px;
+	bottom: -50px;
+	padding: 10px;
+	height: 40px;
+	border-radius: 3px;
+
+}
+.bott{
+	position: relative;
+	top: -200px;
+}
+#hr{
+	position: relative;
+	color: rgba(0, 0, 0, 0.6);
+	top: -300px;
+}
+#ply{
+	position: relative;
+	height: 26px;
+	top: 7px;
+	left: 10px;
+}
+#a1{
+	height: 35px;
+}
+#l0l{
+	position: relative;
+	height: 35px;
+	top: 8px;
+	left: 540px;
+}
