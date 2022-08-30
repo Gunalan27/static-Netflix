@@ -158,7 +158,7 @@ form label{
 #foot table{
 	position: relative;
 	top: -20px;
-	border-spacing: 60px;
+	border-spacing: 30px;
 	height: -150px;
 }
 #foot select{
@@ -167,6 +167,6 @@ form label{
 	background-color: black;
 	color:#737373 ;
 	border-radius: 3px;
-	top: 160px;
+	
 	left: -790px;
 }
